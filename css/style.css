@@ -108,12 +108,12 @@ img {
   color: var(--logo-color);
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contacts-item > .contacts-link:hover,
+.contacts-item > .contacts-link:focus {
   color: var(--logo-color);
 }
 
-.contact-link:active,
+.contacts-link:active,
 .menu .menu-link:active {
   color: var(--logo-color);
 }
