@@ -108,12 +108,6 @@ img {
   color: var(--logo-color);
 }
 
-.contacts-item > .contacts-link:hover,
-.contacts-item > .contacts-link:focus {
-  color: var(--logo-color);
-}
-
-.contacts-link:active,
 .menu .menu-link:active {
   color: var(--logo-color);
 }
@@ -154,6 +148,15 @@ img {
   color: var(--primary-text-color);
   font-style: normal;
   text-decoration: none;
+}
+
+.contacts-item > .contacts-link:hover,
+.contacts-item > .contacts-link:focus {
+  color: var(--logo-color);
+}
+
+.contacts-item > .contacts-link:active {
+  color: var(--logo-color);
 }
 
 .contacts-list .contacts-item:not(:first-child) {
