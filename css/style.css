@@ -242,6 +242,18 @@ img {
   flex-basis: calc((100% - 72px) / 4);
 }
 
+.section-item-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+  background-color: var(--team-section-color);
+}
+
+.ad-icon {
+}
+
 .ad-list p {
   margin-top: 0;
   margin-bottom: 0;
