@@ -205,7 +205,7 @@ img {
 
   background-color: var(--btn-bg-color);
   color: var(--btn-hero-color);
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -368,6 +368,34 @@ img {
 
 .team-social-icon {
   fill: var(--team-section-color);
+}
+
+/* ==================== Customers =================== */
+.test {
+  outline: 1px solid red;
+}
+.customers {
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+
+.customers-title {
+  margin-top: 0;
+  margin-bottom: 72px;
+
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-text-color);
+}
+
+.customets-list {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
 }
 
 /* ======================= Footer =================== */
