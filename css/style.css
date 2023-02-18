@@ -414,7 +414,8 @@ img {
   border-radius: 4px;
 }
 
-.customers-link:hover {
+.customers-link:hover,
+.customers-link:focus {
   border: 1px solid var(--btn-hover-color);
 }
 
@@ -422,7 +423,8 @@ img {
   fill: var(--customers-icon-color);
 }
 
-.customers-icons:hover {
+.customers-icons:hover,
+.customers-icons:focus {
   fill: var(--btn-hover-color);
 }
 
@@ -493,7 +495,8 @@ img {
   border-radius: 50%;
 }
 
-.footer-social-link:hover {
+.footer-social-link:hover,
+.footer-social-link:focus {
   background-color: var(--footer-social-hover-color);
 }
 
@@ -502,6 +505,10 @@ img {
 }
 
 /*=========== Portfolio.html ================= */
+
+.header-nav.add-style {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 
 /* ================= Filter ===================*/
 
@@ -535,6 +542,7 @@ img {
 .filter-btn:focus {
   background-color: var(--btn-bg-color);
   color: var(--btn-hero-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter-list > .filter-item:not(:last-child) {
@@ -560,6 +568,15 @@ img {
 
 .portfolio-list > .portfolio-item {
   flex-basis: calc((100% - 48px) / 3);
+}
+
+.card {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.card:hover,
+.card:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .card > .card-window {
