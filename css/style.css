@@ -24,6 +24,7 @@ img {
   --topline-bg-color: #e7e9fc;
   --filter-hover-color: #e7e9fc;
   --border-card-portfolio-color: #e7e9fc;
+  --customers-icon-color: #8e8f99;
 }
 
 .visually-hidden {
@@ -371,9 +372,7 @@ img {
 }
 
 /* ==================== Customers =================== */
-.test {
-  outline: 1px solid red;
-}
+
 .customers {
   padding-top: 130px;
   padding-bottom: 120px;
@@ -392,10 +391,37 @@ img {
 }
 
 .customets-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
   list-style: none;
+}
+
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid var(--customers-icon-color);
+  border-radius: 4px;
+}
+
+.customers-link:hover {
+  border: 1px solid var(--btn-hover-color);
+}
+
+.customers-icons {
+  fill: var(--customers-icon-color);
+}
+
+.customers-icons:hover {
+  fill: var(--btn-hover-color);
 }
 
 /* ======================= Footer =================== */
