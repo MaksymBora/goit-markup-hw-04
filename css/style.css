@@ -420,8 +420,8 @@ img {
   fill: var(--customers-icon-color);
 }
 
-.customers-icons:hover,
-.customers-icons:focus {
+.customers-link:hover .customers-icons,
+.customers-link:focus .customers-icons {
   fill: var(--btn-hover-color);
 }
 
