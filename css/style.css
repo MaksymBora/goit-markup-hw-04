@@ -182,7 +182,7 @@ img {
   max-width: 1440px;
 }
 
-.hero-content > .hero-title {
+.container > .hero-title {
   margin-top: 0;
   margin-bottom: 48px;
   margin-left: auto;
