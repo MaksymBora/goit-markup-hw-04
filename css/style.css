@@ -246,12 +246,11 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px 100px;
   margin-bottom: 8px;
-  background-color: var(--team-section-color);
-}
+  height: 112px;
 
-.ad-icon {
+  border-radius: 4px;
+  background-color: var(--team-section-color);
 }
 
 .ad-list p {
@@ -436,12 +435,12 @@ img {
 
 .footer-wrapper {
   display: flex;
-  align-items: flex-start;
-  gap: 120px;
+  align-items: baseline;
 }
 
 .footer-wrapper > .footer-logo-part {
   width: 264px;
+  margin-right: 120px;
 }
 
 .logo.footer-logo {
